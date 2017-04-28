@@ -9,7 +9,10 @@ import java.util.Scanner;
 public class Prueba {
 
     public static void main(String[] args) {
-
+        boolean VesEsto = false;
+        if(VesEsto){
+            System.out.println("Funciones el Git");
+        }
         boolean salir = false;
         Sistema nuevoSistema = new Sistema();
         nuevoSistema.imprimirTablero(nuevoSistema.hacerMatrizTemporal());
