@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Prueba {
 
     public static void main(String[] args) {
-        boolean VesEsto = false;
+        boolean VesEsto = true;
         if(VesEsto){
             System.out.println("Funciones el Git");
         }
